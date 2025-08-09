@@ -30,13 +30,7 @@
                 {{$slot}}
 
             </div>
-            <footer class="main-footer">
-                <div class="footer-left">
-                    حق چاپ © 2019 <div class="bullet"></div>طراحی توسط <a href="#">amir.h</a>
-                </div>
-                <div class="footer-right">
-                </div>
-            </footer>
+            @include('admin.partials.footer')
         </div>
     </div>
     <!-- General JS Scripts -->
