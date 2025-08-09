@@ -6,4 +6,6 @@ return [
     'password_confirm' => 'تایید رمز عبور',
     'fname' => 'نام',
     'lname' => 'نام خانوادگی',
+    'profile' => 'مشخصات',
+    'logout' => 'خروج',
 ];
