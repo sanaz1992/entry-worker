@@ -8,4 +8,6 @@ return [
     'lname' => 'نام خانوادگی',
     'profile' => 'مشخصات',
     'logout' => 'خروج',
+    'admin_panel' => 'پنل مدیریت',
+    'dashboard' => 'داشبورد',
 ];
