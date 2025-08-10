@@ -22,14 +22,16 @@
                 </a>
             </li>
 
-            {{-- <li class="dropdown">
-                <a href="#" class="nav-link has-dropdown"><i data-feather="briefcase"></i><span>ابزارک
-                        ها</span></a>
+            <li class="dropdown">
+                <a href="#" class="nav-link has-dropdown">
+                    <i data-feather="briefcase"></i><span>{{__('attributes.companies')}}
+                    </span>
+                </a>
                 <ul class="dropdown-menu">
-                    <li><a class="nav-link" href="widget-chart.html">ابزارکهای نمودار</a></li>
-                    <li><a class="nav-link" href="widget-data.html">ابزارکهای داده</a></li>
+                    <li><a class="nav-link" href="{{route('admin.companies.index')}}">{{__('attributes.companies_list')}}</a></li>
+                    <li><a class="nav-link" href="{{route('admin.companies.create')}}">{{__('attributes.companies_create')}}</a></li>
                 </ul>
-            </li> --}}
+            </li>
 
         </ul>
     </aside>

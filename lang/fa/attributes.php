@@ -10,4 +10,12 @@ return [
     'logout' => 'خروج',
     'admin_panel' => 'پنل مدیریت',
     'dashboard' => 'داشبورد',
+    'companies' => 'شرکت ها',
+    'companies_list' => 'لیست شرکت ها',
+    'companies_create' => 'افزودن شرکت',
+    'company_name' => 'نام شرکت',
+    'company_manager' => 'مدیر شرکت',
+    'workers_count' => 'تعداد کارمندان',
+    'status' => 'وضعیت',
+    'actions' => 'عملیات'
 ];

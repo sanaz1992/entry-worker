@@ -7,6 +7,9 @@ class Dashboard extends AdminBaseComponent
 {
     public function render()
     {
-        return $this->renderView('livewire.admin.dashboard');
+        return $this->renderView('livewire.admin.dashboard')
+            ->layoutData([
+                'title' => 'داشبورد مدیریت'
+            ]);
     }
 }

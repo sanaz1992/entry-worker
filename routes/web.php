@@ -2,6 +2,8 @@
 
 use App\Http\Controllers\Auth\LoginController;
 use App\Http\Controllers\Auth\RegisterController;
+use App\Livewire\Admin\Company\CompanyCreate;
+use App\Livewire\Admin\Company\CompanyList;
 use App\Livewire\Admin\Dashboard;
 use Illuminate\Support\Facades\Route;
 
@@ -17,3 +19,9 @@ Route::get('/', function () {
 })->name('home');
 
 Route::get('/dashboard', Dashboard::class)->name('dashboard');
+
+Route::name('admin.')->prefix('/admin')->group(function () {
+
+    Route::get('/companies', CompanyList::class)->name('companies.index');
+    Route::get('/companies/create', CompanyCreate::class)->name('companies.create');
+});
